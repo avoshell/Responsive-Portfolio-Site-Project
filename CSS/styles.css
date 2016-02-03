@@ -1,10 +1,56 @@
 /* ---------Main Styles------ */
 
-.main-header {
-  font-family: 'Helvetica', sans-serif;
-
-
+body {
+  background-color: #eeeeee;
 }
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1em;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.25em;
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1em;
+  color: #808080;
+  text-align: center;
+}
+
+
+/* ---------Navigation------ */
+.nav li {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1em;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  padding: 10px 0;
+  margin: 5px 15px;
+  text-decoration: none;
+}
+
+/* ------Content-------- */
 
 
 
