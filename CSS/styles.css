@@ -66,6 +66,13 @@ h3, p {
 /* ---------Media Queries------ */
 
 @media screen and (max-width: 767px) {
+  .header,
+  .personal-blurb,
+  .contact,
+  .footer {
+    background-color: rgb(249, 249, 249);
+  }
+
   .portfolio img {
     display: block;
     width: 90%;
@@ -90,6 +97,7 @@ h3, p {
 
   .personal-blurb p {
     padding-bottom: 75px;
+    color: rgb(150, 150, 150);
   }
 
   p {
@@ -110,4 +118,41 @@ h3, p {
     font-size: 1em;
     padding-bottom: 45px;
   }
+}
+
+.nav li {
+  background-color: white;
+  padding: 15px;
+  margin: 0 15px 5px;
+  border-radius: 5px;
+}
+
+.portfolio {
+  margin-top: 50px;
+}
+
+.contact {
+  padding: 50px 0;
+  color: rgb(150, 150, 150);
+}
+
+.contact ul {
+  font-size: 1.25em;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.footer h4 {
+  float: left;
+}
+
+.footer a {
+  float: right;
+  padding-top: 20px;
+}
+
+.footer {
+  font-size: 12pt;
+  font-weight: bold;
 }
