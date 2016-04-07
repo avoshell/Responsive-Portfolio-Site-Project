@@ -7,8 +7,12 @@
     .main-nav,
     .personal-blurb,
     .contact,
-    .footer {
+    .footer-top {
       background-color: rgb(249, 249, 249);
+    }
+
+    .footer-menu {
+      display: none;
     }
 
     .main-nav li {
@@ -102,16 +106,16 @@
     padding-bottom: 15px;
   }
 
-  .footer h4 {
+  .footer-top h4 {
     float: left;
   }
 
-  .footer a {
+  .footer-top a {
     float: right;
     padding-top: 20px;
   }
 
-  .footer {
+  .footer-top {
     overflow: hidden;
     width: 90%;
     margin: auto;
@@ -127,9 +131,13 @@
     .main-nav,
     .personal-blurb,
     .contact,
-    .footer,
+    .footer-menu,
     .nav li {
       background-color: rgb(249, 249, 249);
+    }
+
+    .footer-top {
+      display: none;
     }
 
     h2 {
@@ -226,16 +234,16 @@
       padding-bottom: 15px;
     }
 
-    .footer h4 {
+    .footer-menu h4 {
       float: left;
     }
 
-    .footer a {
+    .footer-menu a {
       float: right;
-      padding-top: 20px;
+      padding: 20px 15px 15px 15px;
     }
 
-    .footer {
+    .footer-menu {
       overflow: hidden;
       width: 90%;
       margin: auto;
@@ -244,6 +252,27 @@
       font-weight: bold;
       border-top: 1px solid lightgray;
     }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .main-header {
+    float: left;
+  }
+
+  .main-nav {
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .gallery li {
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    width: 30%;
+    margin: 1.666%;
+  }
 
 }
 
