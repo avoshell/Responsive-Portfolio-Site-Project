@@ -127,6 +127,7 @@
 }
 
 @media screen and (min-width: 768px) {
+    body,
     .main-header,
     .main-nav,
     .personal-blurb,
@@ -145,12 +146,19 @@
     }
 
     .portfolio {
-      width: 90%;
+      width: 100%;
       margin: auto;
       margin-top: 50px;
       padding-top: 30px;
       background-color: white;
       }
+
+    .portfolio h2,
+    .contact h2 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 1em;
+    }
 
     h2,
     h3,
@@ -188,8 +196,15 @@
       text-align: center;
       color: black;
       line-height: 1.5em;
-      font-size: 1.1em;
     }
+
+    .gallery li a h3 {
+      font-size: 1.25em;
+    }
+
+   .gallery li a p {
+     font-size: 1.1em;
+   }
 
     img {
       max-width: 100%;
@@ -204,17 +219,19 @@
 
     .personal-blurb img {
       float: right;
-      width: 35%;
-      padding: 10px;
+      width: 40%;
+      padding: 20px;
     }
 
     .personal-blurb p {
       float: left;
-      width: 55%;
+      width: 50%;
       margin: auto;
-      padding: 25px;
+      padding: 20px;
       font-size: 1.25em;
       color: darkgray;
+      line-height: 1.25em;
+      font-weight: lighter;
     }
 
     .contact {
@@ -224,8 +241,12 @@
       color: rgb(150, 150, 150);
     }
 
+
     .contact p {
       padding-bottom: 25px;
+      font-size: 1.25em;
+      line-height: 1.25em;
+      font-weight: lighter;
     }
 
     .contact ul {
@@ -234,6 +255,31 @@
       padding-bottom: 15px;
     }
 
+    .footer-menu {
+      display: flex;
+      align-items: baseline;
+      border-top: 1px solid lightgray;
+      width: 95%;
+      margin: auto;
+      margin-bottom: 50px;
+    }
+
+    .footer-menu h4 {
+      margin-right: auto;
+      margin-left: 20px;
+    }
+
+    .footer-nav {
+      margin-left: auto;
+      margin-right: 20px;
+    }
+
+    .footer-nav a {
+      padding: 15px;
+      font-weight: bold;
+    }
+
+/*
     .footer-menu h4 {
       float: left;
     }
@@ -252,18 +298,33 @@
       font-weight: bold;
       border-top: 1px solid lightgray;
     }
-
+*/
 }
 
 @media screen and (min-width: 1024px) {
   .main-header {
-    float: left;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .name {
+    margin-right: auto;
+    margin-left: 25px;
   }
 
   .main-nav {
-    float: right;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: 25px;
+  }
+
+  .personal-blurb p {
+    font-size: 1.6em;
+    margin-left: 15px;
+  }
+
+
+  .portfolio {
+    width: 95%;
   }
 
   .gallery li {
@@ -272,6 +333,23 @@
     display: inline-block;
     width: 30%;
     margin: 1.666%;
+  }
+
+  .contact {
+    margin-bottom: 50px;
+    width: 70%;
+  }
+
+  .contact h2 {
+    margin-bottom: 50px;
+  }
+
+  .contact p {
+    margin: 25px;
+  }
+
+  .footer-menu {
+    margin-bottom: 20px;
   }
 
 }
