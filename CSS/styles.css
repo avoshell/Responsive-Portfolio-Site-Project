@@ -34,11 +34,13 @@ body,
       clear: both;
     }
 
+
+
 /* ---------MEDIA QUERIES------ */
 
 @media screen and (max-width: 767px) {
 
-    /* --General-- */
+    /* --General-Phone-- */
 
     img {
       display: block;
@@ -69,14 +71,14 @@ body,
       padding-bottom: 45px;
     }
 
-    /* --Header-- */
+    /* --Header-Phone-- */
 
     .main-header {
       margin: auto;
       padding: 15px;
     }
 
-    /* --Navigation-- */
+    /* --Navigation-Phone-- */
 
     .main-nav li {
       text-decoration: none;
@@ -86,7 +88,7 @@ body,
       border-radius: 5px;
     }
 
-    /* --Personal Info-- */
+    /* --Personal Info-Phone-- */
 
     .personal-blurb {
       padding-top: 50px
@@ -103,7 +105,7 @@ body,
       color: rgb(150, 150, 150);
     }
 
-    /* --Gallery-Portfolio-- */
+    /* --Gallery-Portfolio-Phone-- */
 
     .portfolio {
       margin-top: 50px;
@@ -117,7 +119,7 @@ body,
       margin: auto;
     }
 
-    /* --Contact Info-- */
+    /* --Contact Info-Phone-- */
 
     .contact {
       padding: 50px 0;
@@ -135,7 +137,7 @@ body,
       font-size: 1em;
     }
 
-    /* --Footer-- */
+    /* --Footer-Phone-- */
 
     .footer-top {
       background-color: rgb(249, 249, 249);
@@ -165,9 +167,11 @@ body,
     }
 }
 
+
+
 @media screen and (min-width: 768px) {
 
-  /* --General-- */
+  /* --General-Tablet-- */
 
   h2 {
     font-size: 1em;
@@ -192,7 +196,7 @@ body,
     display: block;
   }
 
-  /* --Navigation-- */
+  /* --Navigation-Tablet-- */
 
   .main-nav {
     display: flex;
@@ -204,7 +208,7 @@ body,
     background-color: transparent;
   }
 
-  /* --Personal Info-- */
+  /* --Personal Info-Tablet-- */
 
   .personal-blurb {
     margin: auto;
@@ -229,7 +233,7 @@ body,
     font-weight: lighter;
   }
 
-  /* --Gallery-Portfolio-- */
+  /* --Gallery-Portfolio-Tablet-- */
 
   .portfolio {
     width: 100%;
@@ -262,7 +266,7 @@ body,
    font-size: 1.1em;
  }
 
-  /* --Contact Info-- */
+  /* --Contact Info-Tablet-- */
 
   .contact {
     text-align: center;
@@ -285,9 +289,7 @@ body,
     padding-bottom: 10px;
   }
 
-
-
-  /* --Footer-- */
+  /* --Footer-Tablet-- */
 
   .footer-menu,
   .nav li {
@@ -324,9 +326,11 @@ body,
 
 }
 
+
+
 @media screen and (min-width: 1024px) {
 
-  /* --Header-- */
+  /* --Header-Desktop-- */
 
   .main-header {
     display: flex;
@@ -337,21 +341,21 @@ body,
     margin-right: auto;
     margin-left: 25px;
   }
-  /* --Personal Info-- */
+  /* --Personal Info-Desktop-- */
 
   .personal-blurb p {
     font-size: 1.6em;
     margin-left: 15px;
   }
 
-  /* --Navigation-- */
+  /* --Navigation-Desktop-- */
 
   .main-nav {
     margin-left: auto;
     margin-right: 25px;
   }
 
-  /* --Gallery-Portfolio-- */
+  /* --Gallery-Portfolio-Desktop-- */
 
   .portfolio {
     width: 95%;
@@ -365,7 +369,7 @@ body,
     margin: 1.666%;
   }
 
-  /* --Contact Info-- */
+  /* --Contact Info-Desktop-- */
 
   .contact {
     margin-bottom: 50px;
@@ -380,7 +384,7 @@ body,
     margin: 25px;
   }
 
-  /* --Footer-- */
+  /* --Footer-Desktop-- */
 
   .footer-menu {
     margin-bottom: 20px;
