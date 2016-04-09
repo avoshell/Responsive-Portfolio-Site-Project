@@ -17,6 +17,17 @@ body,
   padding: 10px 0;
 }
 
+.contact ul li p {
+  display: inline-block;
+  margin: auto;
+  padding: 10px 10px 15px 10px;
+}
+
+.phone,
+.email {
+  font-weight: bolder;
+}
+
 .clearfix::after {
       content: "";
       display: table;
@@ -118,6 +129,10 @@ body,
       font-weight: lighter;
       text-align: center;
       padding-bottom: 15px;
+    }
+
+    .contact ul li p {
+      font-size: 1em;
     }
 
     /* --Footer-- */
@@ -263,11 +278,14 @@ body,
     font-weight: lighter;
   }
 
-  .contact ul {
-    font-size: 1.25em;
+  .contact ul,
+  .contact ul li p {
+    font-size: 1.2em;
     font-weight: lighter;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
   }
+
+
 
   /* --Footer-- */
 
