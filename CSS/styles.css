@@ -319,6 +319,7 @@ body,
 
  .gallery li a p {
    font-size: 1.1em;
+   height: 80px;
  }
 
   /* --Contact Info-Tablet-- */
@@ -435,6 +436,10 @@ body,
     display: inline-block;
     width: 30%;
     margin: 1.666%;
+  }
+
+  .gallery li a p {
+    height: 90px;
   }
 
   /* --Contact Info-Desktop-- */
