@@ -4,7 +4,8 @@ body,
 .main-header,
 .main-nav,
 .personal-blurb,
-.contact {
+.contact,
+.skills {
   background-color: rgb(249, 249, 249);
 }
 
@@ -28,11 +29,32 @@ body,
   font-weight: bolder;
 }
 
+.skills {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+.skills ul {
+  margin: auto;
+  text-align: center;
+  color: orange;
+}
+
+.footer-top,
+.footer-top a,
+.footer-menu,
+.footer-nav,
+.footer-nav a {
+  color: orange;
+
+}
+
 .clearfix::after {
       content: "";
       display: table;
       clear: both;
     }
+
 
 
 
@@ -92,6 +114,7 @@ body,
 
     .personal-blurb {
       padding-top: 50px
+      padding-bottom: 20px;
     }
 
     .personal-blurb img {
@@ -103,6 +126,19 @@ body,
     .personal-blurb p {
       padding-bottom: 75px;
       color: rgb(150, 150, 150);
+    }
+
+    /* --Skills-Phone-- */
+
+    .skills ul {
+      font-size: 1.25em;
+      line-height: 1.75em;
+    }
+
+    .skills a img {
+      width: 60%;
+      margin: auto;
+      padding-bottom: 25px;
     }
 
     /* --Gallery-Portfolio-Phone-- */
@@ -233,6 +269,25 @@ body,
     font-weight: lighter;
   }
 
+  /* --Skills-Tablet-- */
+
+
+  .skills h2 {
+    padding-bottom: 50px;
+  }
+
+  .skills ul {
+    font-size: 1.5em;
+    line-height: 1.75em;
+  }
+
+  .skills a img {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 25px;
+  }
+
+
   /* --Gallery-Portfolio-Tablet-- */
 
   .portfolio {
@@ -248,7 +303,7 @@ body,
     overflow: hidden;
     display: inline-block;
     width: 45%;
-    margin: 2.5%;
+    margin: 2%;
   }
 
   .gallery li a h3,
@@ -353,6 +408,19 @@ body,
   .main-nav {
     margin-left: auto;
     margin-right: 25px;
+  }
+
+  /* --Skills-Desktop-- */
+
+  .skills ul {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .skills a img {
+    width: 35%;
+    margin: auto;
+    padding-bottom: 25px;
   }
 
   /* --Gallery-Portfolio-Desktop-- */
